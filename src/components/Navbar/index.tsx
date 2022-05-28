@@ -11,13 +11,17 @@ import {
 } from "./styles"
 import { FaBars } from 'react-icons/fa'
 
-export const Navbar = () =>{
+type NavbarProps = {
+  toggle: () => void;
+}
+
+export const Navbar = ({toggle}: NavbarProps) =>{
   return(
     <>
       <Nav>
         <NavbarContainer>
           <NavLogo to='/'>dolla</NavLogo>
-          <MobileIcon>
+          <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <NavMenu>

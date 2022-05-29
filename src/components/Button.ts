@@ -2,9 +2,9 @@ import styled from "styled-components";
 import { Link } from "react-scroll";
 
 export const Button = styled(Link)<{
-  primary?: boolean, 
+  primary: boolean, 
   big?: boolean, 
-  dark?: boolean, 
+  dark: boolean, 
   fontBig?: boolean
 }>`
   border-radius: 50px;

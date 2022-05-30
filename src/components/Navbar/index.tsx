@@ -39,7 +39,7 @@ export const Navbar = ({toggle}: NavbarProps) =>{
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to='/'>Sign In</NavBtnLink>
+            <NavBtnLink to='/signin'>Sign In</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>

@@ -60,9 +60,9 @@ export const InfoSection = ({
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
                   <Button to='home'
-                    smooth
+                    smooth={true}
                     duration={500}
-                    spy
+                    spy={true}
                     offset={-80}
                     primary={primary}
                     dark={dark}
